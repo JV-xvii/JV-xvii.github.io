@@ -1,0 +1,89 @@
+
+
+		body {
+			background: url(../images/background.jpg) no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			}
+		
+		h1{
+			float: top;
+			font-family: cursive;
+			font-size: 2.5vw;
+			color: black;
+			border: 5px solid black;
+			border-radius: 15px 15px 15px 0;
+			background-color: rgba(255,255,255,.8);
+			padding: 5px 15px 1px 15px;
+			width: 56%;
+			position: relative;
+			}
+			
+			
+		.nav{
+			margin: auto;
+			background-color: rgba(255,255,255,.8);
+			border: 3px solid black;
+			border-radius: 15px 0 0 15px;
+			font-size: 1.5vw;
+			font-family: cursive;
+			text-align: center;
+			width: 9%;
+			float: left;
+			}
+	
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			}
+			
+		li a:link{
+			display: block;
+			color: black;
+			padding: 10px;
+			text-decoration: none;
+			}
+		li a:visited{
+			color: black;
+			}
+		li a:hover {
+			background-color: rgb(38,70,83);
+			color: white;
+			border-radius: 10px 0 0 10px;
+			}
+		li a.active {
+			background-color: rgb(138,177,125);
+			color: white;
+			}
+			
+		.main{
+			margin: auto;
+			background-color: rgba(255,255,255,.9);
+			border: 3px solid black;
+			border-radius: 0 15px 15px 0;
+			height: 100%;
+			width: 89%;
+			float: right;
+			}
+		
+		.intro{
+			float: left;
+			font-family: cursive;
+			font-size: 1.5vw;
+			color: black;
+			width: 45%;
+			position: relative:
+			}
+			
+		.armory{
+			float: right;
+			border-left: 3px solid;	
+			border-bottom: 3px solid;
+			border-radius: 0 0 0 15px;
+			text-align: center;
+			width: 53%;
+			height: 18vw;
+			position: relative;
+			}
