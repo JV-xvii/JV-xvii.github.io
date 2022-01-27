@@ -22,6 +22,7 @@
 			
 		.nav{
 			margin: auto;
+			margin-bottom: 1%;
 			background-color: rgba(255,255,255,.8);
 			border: 3px solid black;
 			border-radius: 15px 0 0 15px;
@@ -77,6 +78,19 @@
 			position: relative:
 			}
 			
+		p{
+			color: red;
+			animation: rainbow 10s infinite;
+			}
+			
+		@keyframes rainbow{
+			0%{color: red;}
+			25%{color: yellow;}
+			50%{color: green;}
+			75%{color: blue;}
+			100%{color: red;}
+			}
+			
 		.armory{
 			float: right;
 			border-left: 3px solid;	
@@ -86,4 +100,26 @@
 			width: 53%;
 			height: 18vw;
 			position: relative;
+			}
+			
+		.youtube{
+			background: url('../images/social_media.jpg') no-repeat 34.894% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 12px;
+			height: 13px;
+			}
+		.facebook{
+			background: url('../images/social_media.jpg') no-repeat 4.274% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 13px;
+			height: 13px;
+			}
+		.twitter{
+			background: url('../images/social_media.jpg') no-repeat 19.313% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 13px;
+			height: 13px;
 			}

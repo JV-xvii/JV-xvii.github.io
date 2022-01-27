@@ -19,7 +19,8 @@
 			}
 		.nav{
 			margin: auto;
-			background-color: rgba(255,255,255,.9);
+			margin-bottom: 1%;
+			background-color: rgba(255,255,255,.8);
 			border: 3px solid black;
 			border-radius: 15px 0 0 15px;
 			font-size: 1.5vw;
@@ -77,6 +78,7 @@
 		.container{
 			border: 3px solid black;
 			padding: 1%;
+			font-size: 0.9vw;
 			margin: 0;
 			width: 72%;
 			height: 95%;
@@ -100,3 +102,24 @@
 			float: right
 			}
 		
+		.youtube{
+			background: url('../images/social_media.jpg') no-repeat 34.894% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 12px;
+			height: 13px;
+			}
+		.facebook{
+			background: url('../images/social_media.jpg') no-repeat 4.274% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 13px;
+			height: 13px;
+			}
+		.twitter{
+			background: url('../images/social_media.jpg') no-repeat 19.313% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 13px;
+			height: 13px;
+			}
